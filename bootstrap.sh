@@ -55,30 +55,30 @@ sudo apt-get install -y --force-yes \
   apache2 \
   mysql-server-5.6 \
   git-core \
-  libapache2-mod-php7.1 \
-  php7.1 \
-  php7.1-bcmath \
-  php7.1-cli \
-  php7.1-common \
-  php7.1-curl \
-  php7.1-dev \
-  php7.1-fpm \
-  php7.1-gd \
-  php7.1-json \
-  php7.1-mbstring \
-  php7.1-mcrypt \
-  php7.1-memcached \
-  php7.1-mysql \
-  php7.1-opcache \
-  php7.1-xml \
-  php7.1-zip
+  libapache2-mod-php7.2 \
+  php7.2 \
+  php7.2-bcmath \
+  php7.2-cli \
+  php7.2-common \
+  php7.2-curl \
+  php7.2-dev \
+  php7.2-fpm \
+  php7.2-gd \
+  php7.2-json \
+  php7.2-mbstring \
+  php7.2-mcrypt \
+  php7.2-memcached \
+  php7.2-mysql \
+  php7.2-opcache \
+  php7.2-xml \
+  php7.2-zip
 
 Update
 
 Message "CONFIGURING APACHE AND PHP"
 
-sed -i "s/error_reporting = .*/error_reporting = E_ALL/" /etc/php/7.1/apache2/php.ini
-sed -i "s/display_errors = .*/display_errors = On/" /etc/php/7.1/apache2/php.ini
+sed -i "s/error_reporting = .*/error_reporting = E_ALL/" /etc/php/7.2/apache2/php.ini
+sed -i "s/display_errors = .*/display_errors = On/" /etc/php/7.2/apache2/php.ini
 
 sudo a2enmod rewrite
 
