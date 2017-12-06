@@ -27,7 +27,7 @@ Install the necessary files ([`Vagrantfile`](Vagrantfile) and [`bootstrap.sh`](b
 As a convenience to **macOS** users, from the command line, navigate to `vagrant/<name of project>` directory and run:
 
 ```bash
-$ bash <(curl -sL )
+$ bash <(curl -sL https://git.io/vbcFU)
 ```
 
 Next, edit these settings:
