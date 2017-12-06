@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-DOCUMENT_ROOT="public_html/"
-SERVER_NAME="cth.local"
-DATABASE_NAME="cth"
+DOCUMENT_ROOT="/"
+SERVER_NAME="example.local"
+DATABASE_NAME="example"
 
 #-----------------------------------------------------------------------
 
