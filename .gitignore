@@ -74,6 +74,5 @@ sitemap.xml.gz*~
 # PROJECT-SPECIFIC #
 ####################
 
-/app
 .idea/
 .vagrant/
