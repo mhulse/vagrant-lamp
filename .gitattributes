@@ -4,4 +4,4 @@
 
 .* export-ignore
 README.md export-ignore
-*.sh export-ignore
+intall.sh export-ignore

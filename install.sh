@@ -8,7 +8,7 @@ function install() {
   # Remote repo zip file:
   SOURCE_ZIP="https://github.com/mhulse/vagrant-lamp/tarball/master"
   # Get the zip file and extract all files:
-  curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1 --exclude={install.sh,.*,README*}
+  curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1
   
   # Testing (comment out the above and run these lines instead):
   #SOURCE_ZIP="/Users/mhulse/Desktop/test.tar.gz"
